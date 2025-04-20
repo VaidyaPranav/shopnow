@@ -2,6 +2,11 @@ import { useSelector } from "react-redux";
 let Bagsummary = () => {
   let bagitems = useSelector((store) => store.bag);
   let items = useSelector((store) => store.items);
+  let men = useSelector((store) => store.men);
+  let women = useSelector((store) => store.women);
+  let homeliving = useSelector((store) => store.homeliving);
+  let kids = useSelector((store) => store.kids);
+
   let finalitems = items.filter((item) => {
     let itemidx = bagitems.indexOf(item.id);
     return itemidx >= 0;
@@ -33,7 +38,7 @@ let Bagsummary = () => {
         </div>
         <div class="price-item">
           <span class="price-item-tag">Convenience Fee</span>
-          <span class="price-item-value">₹99</span>
+          <span class="price-item-value">₹0</span>
         </div>
         <hr />
         <div class="price-footer">
