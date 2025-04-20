@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top:0;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.containers {
+width:400px;
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin-left: 500px;;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #FF9900;
+  margin-bottom: 20px;
+}
+
+.logo span {
+  color: black;
+}
+
+.sign-in-form h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+form {
+  text-align: left;
+}
+
+form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.continue-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(13, 137, 175);
+  border: 1px solid rgb(13, 137, 175);
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #111;
+}
+
+.continue-btn:hover {
+  background-color: rgb(9, 190, 245);;
+}
+
+form p {
+  font-size: 12px;
+  color: #555;
+}
+
+form a {
+  color: #0066c0;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #555;
+}
+
+footer a {
+  color: #0066c0;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
